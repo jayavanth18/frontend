@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./src/assets/favicon.png"  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Project</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/gh/Yasir-Mukthar/FlowiseChat/dist/web.js"
+    Chatbot.init({
+        chatflowid: "2b4e44d4-dd6c-4a5d-a365-b140540448e2",
+        apiHost: "http://localhost:3000",
+    })
+</script>
+</body>
+
+</html>
